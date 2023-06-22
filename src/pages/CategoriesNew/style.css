@@ -1,0 +1,13 @@
+.css-26l3qy-menu {
+  display: block;
+  z-index: 9999 !important;
+}
+.css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+  margin: 12px 0 !important;
+}
+.css-dsah57-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 48px !important;
+}
+.css-1xyghc3-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-size: 14px;
+}

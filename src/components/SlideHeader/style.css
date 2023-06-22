@@ -1,0 +1,69 @@
+.makeStyles-slider_body_banner-26 > .slick-list {
+  height: 430px !important;
+}
+.sliderheader .slick-list {
+  height: 430px !important;
+}
+.slidevoucher .slick-slide {
+  height: 430px !important;
+}
+.slidevoucher .slick-prev :hover {
+  background-color: black;
+}
+.customSlickNext {
+  font-size: 24;
+}
+.arrow-next-slide {
+  margin-top: 200px;
+}
+.sliderheader {
+  position: relative;
+}
+.arrow-slider-header {
+  display: flex;
+  justify-content: space-between;
+}
+.arrow-slider-hover-header {
+  /* display: none !important; */
+  position: absolute;
+  top: 180;
+  z-index: 999;
+  width: 80%;
+}
+
+.prevArrowHeader {
+  /* display: none !important; */
+  margin-right: 16px;
+}
+.nextArrowHeader {
+  /* display: none !important; */
+  margin-left: 16px;
+}
+/* .sliderheader:hover .arrow-slider-hover {
+  display: block !important;
+} */
+
+.sliderheader:hover .prevArrowHeader {
+  /* display: flex !important; */
+  /* animation: animationprev 500ms; */
+}
+
+.sliderheader:hover .nextArrowHeader {
+  /* display: flex !important; */
+  /* animation: animationnext 500ms; */
+}
+
+@keyframes animationprev {
+  0% {
+  }
+  100% {
+    /* margin-left: 20px; */
+  }
+}
+
+@keyframes animationnext {
+  0% {
+  }
+  100% {
+  }
+}
